@@ -1,0 +1,11 @@
+digraph BFS {
+    a [label="a"];
+    b [label="b"];
+    c [label="c"];
+    d [label="d"];
+    m [label="m"];
+    a -> b;
+    b -> d;
+    d -> m;
+    m -> c;
+}

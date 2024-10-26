@@ -1,0 +1,16 @@
+graph G {
+    a [label="a (peso: 1)"];
+    b [label="b (peso: 2)"];
+    c [label="c (peso: 3)"];
+    d [label="d (peso: 4)"];
+    f [label="f (peso: 6)"];
+    m [label="m (peso: 13)"];
+    g [label="g (peso: 7)"];
+    a -- b;
+    b -- c;
+    b -- d;
+    a -- f;
+    c -- d;
+    d -- m;
+    f -- g;
+}

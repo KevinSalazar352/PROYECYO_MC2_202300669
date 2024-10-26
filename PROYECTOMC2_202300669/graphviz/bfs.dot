@@ -1,0 +1,15 @@
+graph G {
+    a -- b;
+    b -- c;
+    b -- d;
+    a -- f;
+    c -- d;
+    d -- m;
+    f -- g;
+    a -- b [color=red,penwidth=2.0];
+    b -- f [color=red,penwidth=2.0];
+    f -- c [color=red,penwidth=2.0];
+    c -- d [color=red,penwidth=2.0];
+    d -- g [color=red,penwidth=2.0];
+    g -- m [color=red,penwidth=2.0];
+}
